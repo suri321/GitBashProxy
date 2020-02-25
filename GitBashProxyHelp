@@ -1,0 +1,8 @@
+Git-Bash Proxy Set 
+git config --global http.proxy http://username:password@10.8.0.1:8080 
+
+Git-Bash Current Proxy Check 
+git config --global --get http.proxy
+
+Git-Bash Proxy Unset 
+git config --global --unset http.proxy
